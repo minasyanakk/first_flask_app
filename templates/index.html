@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anonym Q</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+<div class="form">
+
+
+<form method="POST" action="/">
+  <div class="text-input">
+    <label for="username">Здесь вы можете написать свое анонимное сообщение!</label>
+    <input type="text" name="Q"  />
+    <span class="separator"> </span>
+  </div>   
+   
+  <div class="form-bottom">
+    <input type="submit"  value="Submit"  />
+
+  
+  
+    </div>
+</form>  
+  
+  
+
+</div>
+</form>
+</body>
+<script type="text/javascript">
+	
+document.getElementById('submit').addEventListener('click', function(e) {
+  e.preventDefault();
+
+})
+</script>
+</html>

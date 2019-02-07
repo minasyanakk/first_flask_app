@@ -2,16 +2,21 @@
 *Those Vars
 */
 .form {
-  width: 400px;
-  margin: 0 auto;
+  width: 600px;
+  margin: 10px auto;
+  display: block;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
   text-align: left;
-  margin-top: 10em;
+  margin-top: 25em;
 }
 .form label {
+  background-color: #e9316b;
   display: block;
   text-align: left;
-  color: white;
-  font-size: .875em;
+  color:white   ;
+  font-size: 1.5em;
 }
 .form form .text-input {
   overflow: hidden;
@@ -23,9 +28,9 @@
   padding: 1em 0 12px;
   padding-left: 0;
   background: none;
-  color: white;
+  color:white;
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: 600;
   border: none;
   border-bottom: 1px solid #999;
   /*Some sibling magic happens */
@@ -38,7 +43,7 @@
 }
 .form form input[type="submit"] {
   color: white;
-  background: #3599FF;
+  background: #e9316b;
   padding: 1em 1.4em;
   font-size: 1.2em;
   border: none;
@@ -71,7 +76,7 @@ body {
    
 }
 body a {
-  color: #3599FF;
+  color: #e9316b;
   font-size: 1em;
   text-decoration: none;
 }
